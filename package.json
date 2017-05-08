@@ -1,0 +1,18 @@
+{
+	"name": "theme-monokai-hc",
+	"displayName": "Monokai High Contrast",
+	"description": "A high contrast theme based the standard Monokai.",
+	"categories": [ "Themes" ],
+	"version": "1.5.0",
+	"publisher": "DataByne",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai High Contrast",
+				"uiTheme": "hc-black",
+				"path": "./themes/hc_Monokai.json"
+			}
+		]
+	}
+}
