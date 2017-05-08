@@ -1,9 +1,9 @@
 {
 	"name": "theme-monokai-hc",
 	"displayName": "Monokai High Contrast",
-	"description": "A high contrast theme based the standard Monokai.",
+	"description": "A high contrast theme based on the TextMate Monokai theme.",
 	"categories": [ "Themes" ],
-	"version": "1.5.0",
+	"version": "1.0.0",
 	"publisher": "DataByne",
 	"engines": { "vscode": "*" },
 	"contributes": {
