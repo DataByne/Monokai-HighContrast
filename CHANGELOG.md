@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2017-05-09 | v1.0.4
+- Assistant had to get with the program
+- Opened inquiry into sandwich issue
+
 ## 2017-05-08 | v1.0.3
 - The Blob strikes again
 
