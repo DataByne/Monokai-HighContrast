@@ -3,10 +3,10 @@
     "displayName": "Monokai - High Contrast",
     "description": "A high contrast theme based on the TextMate Monokai theme.",
     "icon": "images/Monokai-HC.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "DataByne",
     "galleryBanner": {
-		"color": "#000000",
+        "color": "#000000",
         "theme": "dark"
     },
     "license": "LICENSE.txt",

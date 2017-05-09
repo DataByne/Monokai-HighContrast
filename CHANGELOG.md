@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2017-05-08 | v1.0.3
+- The Blob strikes again
+
 ## 2017-05-08 | v1.0.2
 - Marketplace formatting...
 
