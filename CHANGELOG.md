@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2017-05-08 | v1.0.2
+- Marketplace formatting...
+
 ## 2017-05-08 | v1.0.1
 - Was thwarted by a bad link. Laser sharks fixed things
 - Acquired donor forearm for that little face-guy

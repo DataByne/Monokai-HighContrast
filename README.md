@@ -3,7 +3,7 @@ A high contrast theme for Visual Studio Code based on the TextMate Monokai theme
 
 This theme already diverges on a number of colors, but ultimately the general pallet will still look similar to the original.
 
-![screenshot](https://github.com/DataByne/Monokai-HighContrast/blob/master/images/Image-001.PNG)
+![screenshot](https://raw.githubusercontent.com/DataByne/Monokai-HighContrast/blob/master/images/Image-001.PNG)
 
 # What's New?
 - Everything. Everything is new. Should this even be here?

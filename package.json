@@ -1,31 +1,36 @@
 {
-	"name": "theme-monokai-hc",
-	"displayName": "Monokai - High Contrast",
-	"description": "A high contrast theme based on the TextMate Monokai theme.",
-	"icon": "images/Monokai-HC.png",
-	"version": 	"1.0.0",
-	"publisher": "DataByne",
-	"galleryBanner": {
-		"theme": "dark"
-	},
-	"license": "LICENSE.txt",
-	"bugs": {
-		"url": "https://github.com/DataByne/Monokai-HighContrast/issues",
-		"email": "databyne@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": 	"https://GitHub.com/DataByne/Monokai-HighContrast"
-	},
-	"categories": [ "Themes" ],
-	"engines": { "vscode": "*" },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Monokai High Contrast",
-				"uiTheme": "hc-black",
-				"path": "./themes/hc_Monokai.json"
-			}
-		]
-	}
+    "name": "theme-monokai-hc",
+    "displayName": "Monokai - High Contrast",
+    "description": "A high contrast theme based on the TextMate Monokai theme.",
+    "icon": "images/Monokai-HC.png",
+    "version": "1.0.1",
+    "publisher": "DataByne",
+    "galleryBanner": {
+		"color": "#000000",
+        "theme": "dark"
+    },
+    "license": "LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/DataByne/Monokai-HighContrast/issues",
+        "email": "databyne@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://GitHub.com/DataByne/Monokai-HighContrast"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai High Contrast",
+                "uiTheme": "hc-black",
+                "path": "./themes/hc_Monokai.json"
+            }
+        ]
+    }
 }
