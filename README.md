@@ -17,6 +17,7 @@ This theme already diverges on a number of colors, but ultimately the general pa
 # To Do
 - Test many more languages
 - Organize sections by language for greater clarity
+- Change example image
 - Better extension icon
 - Make everything nice on the Marketplace
 - File icons?
