@@ -20,9 +20,9 @@ This theme already diverges on a number of colors, but ultimately the general pa
 - Better extension icon
 - Make everything nice on the Marketplace
 - File icons?
-- ¯\_(ツ)_/¯
+- ¯\\_(ツ)_/¯
 - Learn those other languages
-- Discover that an editor theme is actually the one true Morty
+- Discover that an editor theme is the only path to the one true Morty
 
 # Info
 - [GitHub Repository](https://github.com/DataByne/Monokai-HighContrast)
