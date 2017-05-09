@@ -1,10 +1,23 @@
 {
 	"name": "theme-monokai-hc",
-	"displayName": "Monokai High Contrast",
+	"displayName": "Monokai - High Contrast",
 	"description": "A high contrast theme based on the TextMate Monokai theme.",
-	"categories": [ "Themes" ],
-	"version": "1.0.0",
+	"icon": "images/Monokai-HC.png",
+	"version": 	"1.0.0",
 	"publisher": "DataByne",
+	"galleryBanner": {
+		"theme": "dark"
+	},
+	"license": "LICENSE.txt",
+	"bugs": {
+		"url": "https://github.com/DataByne/Monokai-HighContrast/issues",
+		"email": "databyne@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": 	"https://GitHub.com/DataByne/Monokai-HighContrast"
+	},
+	"categories": [ "Themes" ],
 	"engines": { "vscode": "*" },
 	"contributes": {
 		"themes": [
