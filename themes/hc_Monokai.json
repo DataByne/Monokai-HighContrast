@@ -5,7 +5,8 @@
 	"colors": {
 		"editor.background": "#000000",
 		"editor.foreground": "#FFFFFF",
-		"editorIndentGuide.background": "#FFFFFF"
+		"editorIndentGuide.background": "#FFFFFF",
+		"sideBarTitle.foreground": "#FFFFFF"
 	},
 	"tokenColors": [
 		{
@@ -14,6 +15,8 @@
 				"background": "#000000"
 			}
 		},
+
+		// General
 		{
 			"scope": "comment",
 			"settings": {
@@ -72,13 +75,42 @@
 			}
 		},
 		{
-			"name": "Function declarations",
+			"name": "Function identifier",
 			"scope": [
 				"entity.name.function",
 				"support.function",
 				"support.constant.handlebars"
 			],
 			"settings": {
+				"foreground": "#a6e22e"
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": [
+				"meta.function-call"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Arguments",
+			"scope": [
+				"punctuation.section.arguments"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#a6e22e"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"punctuation.section.parameters"
+			],
+			"settings": {
+				"fontStyle": "",
 				"foreground": "#a6e22e"
 			}
 		},
@@ -91,6 +123,19 @@
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"name": "Core punctuation",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.other"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F3C6BE"
+				// "background": ""
 			}
 		},
 		{
@@ -111,7 +156,10 @@
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
-				"keyword.operator.sizeof"
+				"keyword.operator.sizeof",
+				"keyword.operator.logical.python",
+				"keyword.package",		// golang
+				"keyword.import"		// golang
 			],
 			"settings": {
 				"foreground": "#f92672"
@@ -124,7 +172,10 @@
 			}
 		},
 		{
-			"scope": "storage.type",
+			"name": "Storage Type",
+			"scope": [
+				"storage.type"
+			],
 			"settings": {
 				"foreground": "#66d9ef"
 			}
@@ -164,12 +215,15 @@
 			}
 		},
 		{
-			"name": "coloring of the TS this",
+			"name": "TS this",
 			"scope": "variable.language.this",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#fc9b1b"
 			}
 		},
+
+		// CSS
 		{
 			"name": "CSS property value",
 			"scope": [
@@ -183,6 +237,78 @@
 			],
 			"settings": {
 				"foreground": "#ce9178"
+			}
+		},
+
+		// HTML and XML
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "Tag bracket",
+			"scope": [
+				"meta.tag.inline",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#5CDBEF"
+			}
+		},
+		
+		// Makefiles
+		{
+			"name": "Make prerequisites",
+			"scope": "meta.scope.prerequisites.makefile",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#f9ec6d"
+			}
+		},
+		{
+			"name": "Make key value",
+			"scope": "punctuation.separator.key-value.makefile",
+			"settings": {
+				"foreground": "#f92572"
+			}
+		},
+
+		// Golang specific
+		{
+			"name": "Go construct types",
+			"scope": [
+				"keyword.struct.go",
+				"keyword.map.go",
+				"keyword.interface.go"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#66d9ef"
+			}
+		},
+		{
+			"name": "Golang Declaration Keywords",
+			"scope": [
+				"keyword.type.go",
+				"keyword.function.go",
+				"keyword.var.go"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#f92672"
 			}
 		}
 	]
