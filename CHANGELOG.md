@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2017-09-08 | v1.1.0
+- XML and HTML now display properly
+- Go lang TM scopes added, 
+- Added more to function handling
+- Punctuation changed to a pale rose hue to distinguish from plain text (may be too subtle)
+
 ## 2017-05-09 | v1.0.4
 - Assistant had to get with the program
 - Opened inquiry into sandwich issue
