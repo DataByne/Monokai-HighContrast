@@ -23,6 +23,7 @@ contrast between functionally distinct elements.
 - Makefiles
 
 # To Do
+- Alter hyperlink color on extension notes (it's too deep a blue)
 - Test many more languages
 - Fix/alter Python function calls
 - Markup support
